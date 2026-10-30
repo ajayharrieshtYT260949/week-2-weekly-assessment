@@ -135,6 +135,39 @@ Original data will be stored in `data/raw/`, while processed data will be stored
 
 Model performance, evaluation metrics, visualizations, and findings will be documented after completing the assessment.
 
+## Task 4 — Model Evaluation and Hyperparameter Tuning
+
+### Classification Evaluation
+- Evaluated Logistic Regression, Random Forest, and XGBoost.
+- Calculated accuracy, precision, recall, F1-score, and ROC-AUC.
+- Generated confusion matrices and ROC curves.
+- Selected a classification threshold using validation data to achieve at least 75% recall.
+
+### Hyperparameter Tuning
+- Used `GridSearchCV` with three hyperparameters to tune the Random Forest classifier.
+- Used `RandomizedSearchCV` with 15 parameter combinations to tune XGBoost.
+- Compared the tuned models using validation metrics.
+
+### Regression Evaluation
+- Evaluated Linear Regression, Ridge Regression, and Lasso Regression.
+- Compared MAE, RMSE, and R² against a mean-prediction baseline.
+- Selected the best regression model using validation RMSE.
+
+### Final Evaluation
+- Evaluated the selected classification and regression models on the untouched test set.
+- Saved the selected models, classification threshold, evaluation reports, and figures.
+
+### Outputs
+- `reports/task4_initial_classification_results.csv`
+- `reports/task4_tuned_classification_results.csv`
+- `reports/task4_random_forest_search_results.csv`
+- `reports/task4_xgboost_search_results.csv`
+- `reports/task4_regression_results.csv`
+- `reports/task4_final_classification_test.csv`
+- `reports/task4_final_regression_test.csv`
+- `reports/figures/` — Task 4 evaluation plots
+- `models/` — Selected classification and regression models
+
 ## Author
 
 Ajay Harriesh T.
