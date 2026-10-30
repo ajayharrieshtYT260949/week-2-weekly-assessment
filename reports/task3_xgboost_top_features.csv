@@ -1,0 +1,6 @@
+Feature,Importance
+ordinal__sub_grade,0.19245578
+ordinal__grade,0.1848439
+categorical__term_ 36 months,0.06018448
+numeric__int_rate,0.035573877
+categorical__term_ 60 months,0.034088943

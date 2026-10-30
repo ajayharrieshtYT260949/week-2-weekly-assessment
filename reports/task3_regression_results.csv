@@ -1,0 +1,4 @@
+Model,Validation R2
+Linear Regression,0.38547149540221193
+Ridge Regression,0.3854730429727491
+Lasso Regression,0.38383612196967

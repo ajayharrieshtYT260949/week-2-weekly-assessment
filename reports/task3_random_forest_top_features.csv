@@ -1,0 +1,6 @@
+Feature,Importance
+ordinal__sub_grade,0.09609583114741298
+numeric__int_rate,0.08222988003876475
+numeric__dti,0.06824973880720953
+ordinal__grade,0.06723303223821438
+numeric__income_to_loan_ratio,0.06195157871354983
